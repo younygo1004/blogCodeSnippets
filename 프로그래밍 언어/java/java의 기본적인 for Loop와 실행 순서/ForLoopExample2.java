@@ -2,7 +2,6 @@ public class ForLoopExample2 {
 
     public static void main(String[] args) {
 
-        int test = 1;
         for (int i = initStatementForLoop(); conditionalStatement(i, 5); i = lastStatement(i)) {
             System.out.printf("i값 = %d, 내부 출력문 실행%n", i);
             System.out.println();
